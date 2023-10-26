@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#print best school 10 times with while loop and case
+i="1"
+while [ $i -lt 21 ]
+do
+    case "$i" in
+        "5")
+            echo "bad luck from China"
+            echo $i
+            ;;
+        "10")
+            echo "bad luck from Japan"
+            echo $i
+            ;;
+        "18")
+            echo "bad luck from Italy"
+            echo $i
+            ;;
+        *)
+            echo $i
+            ;;
+        esac
+    i=$((i+1))
+done

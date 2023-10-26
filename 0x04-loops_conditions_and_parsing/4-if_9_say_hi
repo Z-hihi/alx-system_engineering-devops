@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#print best school 10 times with while loop and if 
+i="0"
+while [ $i -lt 10 ]
+do
+    if [ "$i" == "9" ]
+    then
+        echo "Hi"
+    fi
+    echo "Best School"
+
+    i=$((i+1))
+done
